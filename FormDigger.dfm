@@ -14,14 +14,12 @@ object frmDigger: TfrmDigger
   Font.Height = -15
   Font.Name = 'Calibri'
   Font.Style = []
-  OldCreateOrder = False
   Position = poDesigned
   ScreenSnap = True
   ShowHint = True
   SnapBuffer = 4
   Visible = True
   OnClose = FormClose
-  PixelsPerInch = 96
   TextHeight = 18
   object pnlRight: TPanel
     Left = 357
