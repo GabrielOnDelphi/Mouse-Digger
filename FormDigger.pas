@@ -14,12 +14,12 @@ UNIT FormDigger;
 INTERFACE
 
 USES
-  WinApi.Windows, Winapi.ShellAPI, WinApi.Messages, System.SysUtils, System.Classes, Vcl.StdCtrls, VCL.Forms, Vcl.Controls, Vcl.Samples.Spin, Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.AppEvnts,
+  WinApi.Windows, Winapi.ShellAPI, WinApi.Messages, System.SysUtils, System.Classes, Vcl.StdCtrls, Vcl.Forms, cbAppDataForm,Vcl.Controls, Vcl.Samples.Spin, Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.AppEvnts,
   System.Actions, Vcl.ActnList;
 
 TYPE
 
- TfrmDigger = class(TForm)
+ TfrmDigger = class(TLightForm)
     pnlRight: TPanel;
     chkBox: TCheckBox;
     btnStart: TButton;
