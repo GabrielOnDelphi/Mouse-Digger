@@ -95,7 +95,7 @@ begin
       Caption := Caption + '  Text: '+TLabeledEdit(ctrl).Text;
   end;
   
-  //lblStatus.Caption:= cmVclUtils.ShowInheritanceTree(Ctrl);
+  //lblStatus.Caption:= cbVclUtils.ShowInheritanceTree(Ctrl);
 end;
 
 
