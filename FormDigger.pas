@@ -14,7 +14,7 @@ UNIT FormDigger;
 INTERFACE
 
 USES
-  WinApi.Windows, Winapi.ShellAPI, WinApi.Messages, System.SysUtils, System.Classes, Vcl.StdCtrls, Vcl.Forms, LightVcl.Common.AppDataForm,Vcl.Controls, Vcl.Samples.Spin, Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.AppEvnts,
+  WinApi.Windows, Winapi.ShellAPI, WinApi.Messages, System.SysUtils, System.Classes, Vcl.StdCtrls, Vcl.Forms, LightVcl.Visual.AppDataForm,Vcl.Controls, Vcl.Samples.Spin, Vcl.ComCtrls, Vcl.ExtCtrls, Vcl.AppEvnts,
   System.Actions, Vcl.ActnList;
 
 TYPE
