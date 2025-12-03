@@ -82,6 +82,7 @@
         </DelphiCompile>
         <DCCReference Include="FormDigger.pas">
             <Form>frmDigger</Form>
+            <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
