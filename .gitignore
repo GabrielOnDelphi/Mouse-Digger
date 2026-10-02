@@ -3,3 +3,6 @@
 /__history
 *.dcu
 *.identcache
+
+# Temporary files of Claude Code sessions
+Temp/
