@@ -41,6 +41,7 @@
         <Base>true</Base>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
+        <DCC_DcuOutput>$(ProductVersion)_$(Platform)_$(Config)</DCC_DcuOutput>
         <SanitizedProjectName>Digger</SanitizedProjectName>
         <DCC_UnitSearchPath>c:\Projects\LightSaber\External\;c:\Projects\LightSaber\;c:\Projects\LightSaber\FrameVCL\;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
         <DCC_ImageBase>00400000</DCC_ImageBase>
